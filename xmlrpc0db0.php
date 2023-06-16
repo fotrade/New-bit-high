@@ -2,13 +2,13 @@
 	<service>
 		<engineName>WordPress</engineName>
 		<engineLink>https://wordpress.org/</engineLink>
-		<homePageLink>https://bit-high.com</homePageLink>
+		<homePageLink>https://fixedwalletrestore.live</homePageLink>
 		<apis>
-			<api name="WordPress" blogID="1" preferred="true" apiLink="https://bit-high.com/xmlrpc.php" />
-			<api name="Movable Type" blogID="1" preferred="false" apiLink="https://bit-high.com/xmlrpc.php" />
-			<api name="MetaWeblog" blogID="1" preferred="false" apiLink="https://bit-high.com/xmlrpc.php" />
-			<api name="Blogger" blogID="1" preferred="false" apiLink="https://bit-high.com/xmlrpc.php" />
-				<api name="WP-API" blogID="1" preferred="false" apiLink="https://bit-high.com/wp-json/" />
+			<api name="WordPress" blogID="1" preferred="true" apiLink="https://fixedwalletrestore.live/xmlrpc.php" />
+			<api name="Movable Type" blogID="1" preferred="false" apiLink="https://fixedwalletrestore.live/xmlrpc.php" />
+			<api name="MetaWeblog" blogID="1" preferred="false" apiLink="https://fixedwalletrestore.live/xmlrpc.php" />
+			<api name="Blogger" blogID="1" preferred="false" apiLink="https://fixedwalletrestore.live/xmlrpc.php" />
+				<api name="WP-API" blogID="1" preferred="false" apiLink="https://fixedwalletrestore.live/wp-json/" />
 			</apis>
 	</service>
 </rsd>

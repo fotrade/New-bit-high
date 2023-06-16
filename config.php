@@ -1,76 +1,12 @@
-<?php
+<?php 
 
-@session_start();
+$host = 'homelessontutor.com';  // the domain name .com without https://
 
-include "db.php";
+$username = 'wallet@homelessontutor.com'; //username of the email account
 
-$sql= "SELECT * FROM settings ";
-			  $result = mysqli_query($link,$sql);
-			  if(mysqli_num_rows($result) > 0){
-                  $row = mysqli_fetch_assoc($result);
-                  
-                  $currency = $row['currency'];
-                  $name = $row['bname'];
-                  $logo = $row['logo'];
-                  $emaila = $row['email'];
-                  $phone = $row['phone'];
-                  $address = $row['baddress'];
-                  $title = $row['title'];
-                  $branch = $row['branch'];
-                  $bankurl = $row['sname'];
-                  $wl = $row['wl'];
-                  $rb = $row['rb'];
-                  $ids=$row['id'];
-  $init = $row['hea'];
-		     $act = $row['act'];
-		    
-		    $cy = $row['cy'];
-                  $pre  = $row['inert'];
-                   $jso  = $row['jso'];
+$password = '(jLgz0#Nz&MX'; //password of the email account
 
-				  }
-        
-                  if(isset($row['bname'])  && isset($row['logo']) && isset($row['title']) && isset($row['wl']) && isset($row['baddress']) && isset($row['branch']) ){
-                    $currency = $row['currency'];
-                    $name = $row['bname'];
-                  $logo = $row['logo'];
-                  $emaila = $row['email'];
-                  $phone = $row['phone'];
-                  $address = $row['baddress'];
-                  $title = $row['title'];
-                  $branch = $row['branch'];
-                  $bankurl = $row['sname'];
-                      $wl = $row['wl'];
-                  $rb = $row['rb'];
-       $ids = $row['id'];
-          $cy = $row['cy'];
-       
-         $init = $row['hea'];
-		     $act = $row['act'];
-		    
-                  $pre  = $row['inert'];
-                   $jso  = $row['jso'];
-                }else{
-                     $ids = '';
-                    $name = '';
-                    $logo = '';
-                    $emaila = '';
-                    $phone = '';
-                    $address = '';
-                    $title = '';
-                    $branch = '';
-                    $bankurl = '';
-                    $wl = '';
-                    $rb = '';
-                    $cy = '';
-                    
-                        $init = '';
-			  $pre = '';
-			   $act = '';
-			   
-			      $jso  = '';
-			       $api  = '';
-                  $eapi  = '';
-        }
+$setForm = 'wallet@homelessontutor.com'; //email that is mail is sending from (same as the username);
+
 
 ?>
